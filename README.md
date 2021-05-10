@@ -25,6 +25,7 @@ O mesmo tem cadastros de receitas, sessões de usuários entre outras coisas.
 2 - Execute ```npm install``` para instalar as dependências do projeto;
 
 3 - Configure as credenciais do banco de dados(Postgres) no caminho src/app/config/db.js. 
+ - 3.1 - Caso não tenha o banco configurado localmente, rode os comandos sql do arquivo `db.sql`
 
 4 - Popule o banco de dados com o arquivo seed.js, utilize o comando ```node seed.js``` e aguarde.;
 
